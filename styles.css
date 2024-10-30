@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+body{
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+}
+span{
+	color: blue;
+}
+.form-group{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.form-input{
+	width: 100%;
+	height: 30px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+#submit{
+	width: 30%;
+	height: 35px;
+	background-color: #3B71fA;
+	color: white;
+	font-weight: bold;
+}
+#submit:hover{
+	background-color: #3b61ca;
+}
+#submit:active{
+	background-color: #3b71aa;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	
+}
+th{
+	width: 25%;
+}
+tbody tr{
+	border-top: 2px solid black;
+	background-color: gray; 
+	border: 1px solid black;
+}
+td{
+	text-align: center;
+}
